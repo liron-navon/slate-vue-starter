@@ -13,7 +13,6 @@
 <script>
   import {mapGetters, mapMutations} from 'vuex';
 
-  debugger
   export default {
     props: {
       shopname: String,
