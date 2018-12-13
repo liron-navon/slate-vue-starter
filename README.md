@@ -1,5 +1,10 @@
 ## This is a vue starter template for slate, it is based on Shopify's starter template
 
+
+Thanks to @dan-gamble for helping with the slate configurations
+
+This project is based off shopify/skeleton-theme, checkout Slate for more information.
+
 get started
 ```
 $ yarn create slate-theme my-new-theme liron-navon/slate-vue-starter
