@@ -1,0 +1,44 @@
+{
+  "name": "slate-vue-starter",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Shopify Inc., Liron Navon",
+  "description": "A barebones, Slate compatible, starting point for developing Shopify themes with vue.",
+  "keywords": [
+    "shopify",
+    "theme",
+    "vue"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liron-navon/slate-vue-starter.git"
+  },
+  "devDependencies": {
+    "@shopify/slate-tools": "^1.0.0-beta.14",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-shopify": "^16.6.0",
+    "babel-preset-vue": "^2.0.2",
+    "postcss-import": "^12.0.1",
+    "postcss-url": "^8.0.0",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "scripts": {
+    "start": "slate-tools start",
+    "watch": "slate-tools start --skipFirstDeploy",
+    "build": "slate-tools build",
+    "deploy": "slate-tools build && slate-tools deploy",
+    "zip": "slate-tools build && slate-tools zip"
+  },
+  "dependencies": {
+    "vue": "^2.5.21",
+    "vuex": "^3.0.1",
+    "vuex-persist": "^2.0.0"
+  }
+}

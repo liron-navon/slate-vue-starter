@@ -1,0 +1,4 @@
+{
+  "presets": ["shopify/web", "babel-preset-env", "vue"],
+  "plugins": ["transform-async-to-generator"]
+}
