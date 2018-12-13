@@ -1,9 +1,9 @@
 ## This is a vue starter template for slate, it is based on Shopify's starter template
 
 
-Thanks to @dan-gamble for helping with the slate configurations
+Thanks to [@dan-gamble](https://github.com/dan-gamble) for helping with the slate configurations
 
-This project is based off shopify/skeleton-theme, checkout Slate for more information.
+This project is based off [shopify/skeleton-theme](https://github.com/shopify/skeleton-theme), checkout Slate for more information.
 
 get started
 ```
