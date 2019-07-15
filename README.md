@@ -1,6 +1,5 @@
 ## This is a vue starter template for slate, it is based on Shopify's starter template
 
-
 Thanks to [@dan-gamble](https://github.com/dan-gamble) for helping with the slate configurations
 
 This project is based off [shopify/skeleton-theme](https://github.com/shopify/skeleton-theme), checkout Slate for more information.
@@ -9,7 +8,6 @@ get started
 ```
 $ yarn create slate-theme my-new-theme liron-navon/slate-vue-starter
 ```
-
 
 ### How to work with slate for Shopify:
 
@@ -26,14 +24,14 @@ $ yarn create slate-theme my-new-theme liron-navon/slate-vue-starter
 
 #### How to pass store data to my vue components?
 
-Look at this snippet, this div element is going to be where out vue component will be rendered,
+Look at this snippet, this div element is going to be where our vue component will be rendered,
 You can pass `prop-<propName>` to it and fill in the data, in this example we will have a prop named `shopName` and it will receive the name of the shop
 
 ```html
 <div 
      prop-shopName='{{shop.name}}' 
      id="vue-theme-component"> 
-     a vue component is rendered here 
+     a vue component is rendered here (this text is replaced - but will show if js is disabled)
 </div>
 ```
 
@@ -46,6 +44,7 @@ import ThemeComponent from '../../vue/layout/theme.vue';
 import {mountVue} from '../../vue/mountVue';
 
 // the component is rendered to replace the selected html element
+// and the props we defined will be passed to it
 mountVue(ThemeComponent, '#vue-theme-component');
 ```
 
