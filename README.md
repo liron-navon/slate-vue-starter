@@ -4,6 +4,8 @@ Thanks to [@dan-gamble](https://github.com/dan-gamble) for helping with the slat
 
 This project is based off [shopify/skeleton-theme](https://github.com/shopify/skeleton-theme), checkout Slate for more information.
 
+** do notice you should follow the slate guildlines for getting started, this is just a starter template, not a full project.
+
 #### Get started
 ```
 $ yarn create slate-theme my-new-theme liron-navon/slate-vue-starter
